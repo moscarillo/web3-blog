@@ -5,13 +5,13 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { css } from '@emotion/css'
 import { ethers } from 'ethers'
-import { AccountContext } from '../context'
+import { AccountContext } from '../../context'
 
 /* import contract and owner addresses */
 import {
   contractAddress, ownerAddress
-} from '../config'
-import Blog from '../artifacts/contracts/Blog.sol/Blog.json'
+} from '../../config'
+import Blog from '../../artifacts/contracts/Blog.sol/Blog.json'
 
 const ipfsURI = 'https://ipfs.io/ipfs/'
 
