@@ -11,6 +11,8 @@ import { AccountContext } from '../context.js'
 import { ownerAddress } from '../config'
 import 'easymde/dist/easymde.min.css'
 
+// based on this https://dev.to/edge-and-node/the-complete-guide-to-full-stack-web3-development-4g74
+
 function MyApp({ Component, pageProps }) {
   /* create local state to save account information after signin */
   const [account, setAccount] = useState(null)
