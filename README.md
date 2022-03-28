@@ -29,3 +29,10 @@ or
 yarn build
 yarn start
 ```
+
+Deploy to the graph
+
+```
+cd /blogcms
+yarn deploy
+```
